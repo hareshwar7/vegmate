@@ -1,0 +1,46 @@
+
+<button class="show" onclick="shownow()">show</button>
+
+
+<div class="popup-box">
+    <button class="close" onclick="closenow()">close</button>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias fuga odit voluptatibus corrupti atque adipisci nam modi repellat provident perspiciatis!</p>
+</div>
+
+
+<style>
+    .popup-box{
+        width: 200px;
+        background-color: aqua;
+        height: 200px;
+        position: absolute;
+        left: 400px;
+        display: none;
+    }
+    .close{
+        display: inline;
+        position:absolute ;
+        top: 160px;
+    }
+    .show{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+</style>
+
+
+<script>
+    
+    var popup=document.querySelector(".popup-box")
+
+    function shownow()
+        {
+            popup.style.display="block"
+        }
+
+        function closenow()
+        {
+            popup.style.display="none"
+        }    
+</script>

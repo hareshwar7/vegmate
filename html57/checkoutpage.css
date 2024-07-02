@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.cart-page-atcheckout{
+    height: 600px;
+    width:1000px;
+   
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    top: 50px;
+    left: 100px;
+    
+    position: absolute;
+    
+}
+h1{
+    font-family: arial;
+}
+.star-image{
+    height: 50px;
+}
+p{
+    font-family: arial;
+}
+.cart-product-image{
+   
+   height: 290px;
+   width: 400px;
+   position: absolute;
+   top: 10px;
+   border-radius: 20px 0 0 0;
+   left: 10px;
+}
+.add-to-cart-button-oncartpage{
+    border: none;
+    background-color: rgb(11, 248, 11);
+    width: 500px;
+    height:50px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.add-to-cart-button-oncartpage:hover{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+.buynow-button1:hover{
+    color: blueviolet;
+}
+.buynow-button1{
+    border: block;
+    border-width: 1px;
+    border-style: solid;   
+    width: 500px;
+    height:50px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+.name-of-the-product{
+    top: 300px;
+    position: absolute;
+    left: 10px;
+}
+.deep-description{
+    position: absolute;
+    top: 340px;
+    width: 600px;
+    left: 10px;
+}
+.price-ofthe-product{
+    font-family: arial;
+    font-size: 30px;
+    color: red;
+    display: inline;
+    position: absolute;
+    top: 400px;
+    left: 45px;
+}
+.price-2{
+    font-family: arial;
+    top: 410px;
+    left: 100px;
+    
+    color: grey;
+    display: inline;
+    position: absolute;
+}
+.deliver-details{
+    position: absolute;
+    top: 550px;
+    font-weight: bold;
+    left: 30px;
+}
+.deliver-details-2{
+    position: absolute;
+    top: 570px;
+    
+    left: 30px;
+}
+.rivews{
+    position: absolute;
+    top: 450px;
+    left: 20px;
+}
+.star-image{
+    position: absolute;
+    top: 480px;
+    left: 30px;
+}
+.payment-bar{
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    right: 30px;
+    top: 300px;
+
+}
+.payment{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+.credit{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    left: 20px;
+
+}
+.gpay{
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 130px;
+    width: 50px;
+    cursor: pointer;
+
+}
+.paypal{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    right: 40px;
+}
+.fast-deliver-bar{
+   border-radius: 10px;
+   border-width: 1px;
+   border-style: solid;
+   height: 90px;
+   width: 300px;
+   position: absolute;
+   bottom: 80px;
+   right: 30px;
+}
+.fast-deliver{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+.deliver-1{
+    position: absolute;
+    bottom: 2px;
+    cursor: pointer;
+    right: 110px;
+    padding: 2px;
+}
+.deliver-2{
+    position: absolute;
+    bottom:20px;
+    cursor: pointer;
+    right: 100px;
+    padding: 2px;
+}
+.deliver-4{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    cursor: pointer;
+    padding:2px ;
+}
+.deliver-1:hover{
+    color: blueviolet;
+    font-weight: bold;
+}
+.deliver-2:hover{
+    color: blueviolet;
+    font-weight: bold;
+}
+.deliver-4:hover{
+    color: blueviolet;
+    font-weight: bold;
+}
+.price-bar-fastdeliver{
+    width: 300px;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    height: 50px;
+    border-width:1px ;
+    border-style: solid;
+    border-radius: 20px;
+}
+.price-1{
+    color: blueviolet;
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    right: 130px;
+}
+.price-4{
+    color: blueviolet;
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    right: 130px;
+    display: none;
+}
+.price-3{
+    color: blueviolet;
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    right: 130px;
+    display: none;
+}

@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkoutpage</title>
+    <link rel="stylesheet" href="checkoutpage.css">
+</head>
+<body>
+    <div class="cart-page-atcheckout">
+        
+        <img class="cart-product-image" src="shoe5.jfif">
+    
+        <h1 class="name-of-the-product">AIR JORDAN BY NIKE</h1>
+        <p class="deep-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusantium vel ullam, recusandae nam explicabo expedita at facere officia dignissimos unde eos aliquam, odio praesentium exercitationem laborum magnam qui nihil.
+        </p>
+        <p class="price-ofthe-product">$25</p>
+        <p class="price-2">$50</p>
+   
+        <p class="deliver-details">product will deliver within 7 business days:</p>
+        <p class="deliver-details-2">DATE at : dec-15-25</p> 
+        <button class="add-to-cart-button-oncartpage">ADD TO CART</button>
+        <button class="buynow-button1">BUY NOW</button>
+        <p class="rivews">Reivew:</p>
+        <img class="star-image" src="5star.jfif" > 
+    <div class="payment-bar">
+        <p class="payment">PAYMENT METHODS</p>
+        <img class="gpay" title="gpay pament" src="gpay.png" onclick="consol.log('user select gpay')">
+        <img class="credit" title="credit/debit payment" src="cridet.svg">
+        <img class="paypal" title="paypal pament" src="paypal.png"> 
+      
+    
+    </div>
+    <div class="fast-deliver-bar">
+            <p class="fast-deliver" > Fast deliver:</p>
+            <p class="deliver-4" onclick="show2()"># within 4 days</p>
+            <p class="deliver-2" onclick="show5()"># within 2 days</p>
+            <p class="deliver-1" onclick="show7()"># within 1 day</p>
+    </div>
+    <div class="price-bar-fastdeliver">
+            <p class="price-1">$2</p>
+            <p class="price-4">$4.00</p>
+            <p class="price-3">$7.89</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <script>
+        var showpriceofdeliver1 = document.querySelector(".price-1")
+        var showpriceofdeliver2 = document.querySelector(".price-4")
+        var showpriceofdeliver3 = document.querySelector(".price-3")
+
+
+        function show2()
+        {
+            showpriceofdeliver1.style.display="block"
+            showpriceofdeliver2.style.display="none"
+            showpriceofdeliver3.style.display="none"
+        }
+        function show5()
+        {
+            showpriceofdeliver1.style.display="none"
+            showpriceofdeliver2.style.display="block"
+            showpriceofdeliver3.style.display="none"
+        }
+        function show7()
+        {
+            showpriceofdeliver1.style.display="none"
+            showpriceofdeliver2.style.display="none"
+            showpriceofdeliver3.style.display="block"
+        }
+
+    </script>
+</body>
+</html>
+
+

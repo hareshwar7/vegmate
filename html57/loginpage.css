@@ -1,0 +1,294 @@
+.create-one:hover{
+    cursor: pointer;
+    color: rgb(219, 255, 14);
+}
+.contin:hover{
+    cursor: pointer;
+    color: rgb(219, 255, 14);
+}
+.vegg{
+    color: rgb(2, 255, 2);
+    font-family: arial;
+    position: absolute;
+    display: inline;
+    bottom:210px;
+    left: 50px;
+    font-size: 50px;
+}
+.create-one{
+    font-family: arial;
+    display: inline;
+    position: absolute;
+    left: 90px;
+    bottom:120px;
+}
+.email{
+    height: 50px;
+    width: 60px;
+    display: inline;
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+    
+}
+.chrome{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    display: inline;
+    bottom: 50px;
+    left: 30px;
+    cursor: pointer;
+    
+}
+.facebook{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: inline;
+    position: absolute;
+    right: 130px;
+    cursor: pointer;
+    bottom: 50px;
+}
+.contin{
+    font-family: arial;
+    position: absolute;
+    bottom: 160px;
+    left: 100px;
+
+}
+.cross{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.cont{
+    height: 350px;
+    position: relative;
+    top:30px;
+    left: 13px;
+    width: 300px;
+    display: none;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.create-one-textbar{
+    height: 500px;
+    width: 700px;
+    display: none;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    
+}
+.heading-for-createone{
+    font-family: arial;
+    display: inline;
+    position: absolute;
+    left: 30px;
+    color:rgb(14, 238, 14) ;
+}
+.create{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(186, 117, 250);
+    border: none;
+    position: absolute;
+    border-radius: 20px;
+    right: 30px;
+    bottom: 30px;
+}
+.create:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.cancel:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.cancel{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(142, 255, 161);
+    border: none;
+    position: absolute;
+    border-radius: 20px;
+    right: 150px;
+    bottom: 30px;
+}
+
+.num-one::placeholder{
+    text-align: center;
+}
+.num-two::placeholder{
+    text-align: center;
+}
+.num-three::placeholder{
+    text-align: center;
+}
+
+
+.num-one{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 170px;
+    left: 100px;
+    border-radius: 20px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+.num-two{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    border-radius: 20px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+}
+.num-three{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 230px;
+    left: 100px;
+    border-radius: 20px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+
+.logg{
+    position: absolute;
+    bottom: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    width: 150px;
+    height: 30px;
+    left: 300px;
+    
+}
+.logg:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    
+}
+.forget{
+    font-family: arial;
+    color: rgb(67, 64, 255);
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    display: inline;
+}
+.continue:hover{
+    cursor: pointer;
+    color: rgb(136, 255, 0);
+}
+.forget:hover{
+    cursor: pointer;
+    color: rgb(136, 255, 0);
+}
+.num-a::placeholder{
+    text-align: center;
+}
+
+.num-b::placeholder{
+    text-align: center;
+}
+.continue{
+    font-family: arial;
+    position: absolute;
+    display: inline;
+    top: 350px;
+    left: 20px;
+    color:rgb(53, 49, 255) ;
+}
+.log{
+    font-family: arial;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    display: inline;
+    font-size: 60px;
+    color: rgb(24, 238, 192);
+
+}
+.num-b{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    border-radius: 20px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+}
+.num-a{
+    width: 500px;
+    height: 50px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    top: 170px;
+    left: 100px;
+    border-radius: 20px;
+}
+.login{
+    width: 700px;
+    height: 400px;
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 320px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-color: rgb(3, 216, 3);
+    height: 50px;
+    display: flex;
+
+}
+.logo{
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    top: 13px;
+    left: 29px;
+    position: relative;
+
+}

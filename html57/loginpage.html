@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginpage.css">
+    <title>practice</title>
+<div class="full-login-page">
+    
+    
+    <div class="header">
+        <h1 class="logo">Vegmate</h1>
+    </div>
+
+    <div class="create-one-textbar">
+        <input class="num-one" placeholder="email">
+        <input class="num-two" placeholder="password">
+        <input class="num-three" placeholder="confifm-password">
+        <h1 class="heading-for-createone">Create one</h1>
+        <button class="create">create</button>
+        <button class="cancel" onclick="closecreateonepage()">cancel</button>
+
+    </div>
+
+
+   
+
+
+
+
+     <div class="login">
+
+        <h1 class="log">Login</h1>
+        <input class="num-a" placeholder="email">
+        <input class="num-b" placeholder="password">
+        <p class="continue" onclick="popup()">Continue with?</p>
+        <p class="forget">Forget password!</p>
+        <button class="logg" onclick="openhomepage()">
+            login
+        </button>
+
+    </div>
+    <div class="cont">
+
+        <img class="cross" onclick="closepop()" src="cross.png">
+        <img class="chrome" src="crome.jfif">
+        <img class="facebook" src="facebook.png">
+        <img class="email" src="gmail.png">
+        <p class="contin">Continue with?</p>
+        <p class="create-one" onclick="opencreateonepage()">Create one now?</p>
+        <h1 class="vegg">Vegmate</h1>
+
+    </div>
+</div>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var continuewithcontainer = document.querySelector(".cont")
+    var loginbar = document.querySelector(".login")
+    var createonepage = document.querySelector(".create-one-textbar")
+    var openinghomepage = document.querySelector(".logg")
+    var firstpage = document.querySelector(".full-login-page")
+   
+
+    function openhomepage()
+    {
+        firstpage.style.display="none"
+       
+
+    }
+
+    function popup()
+    {
+        continuewithcontainer.style.display="block"
+    }
+
+    function closepop()
+    {
+        continuewithcontainer.style.display="none"
+    }
+    function opencreateonepage()
+    {
+        loginbar.style.display="none"
+        createonepage.style.display="block"
+        continuewithcontainer.style.display="none"
+    }
+    function closecreateonepage()
+    {
+        createonepage.style.display="none"
+        loginbar.style.display="block"
+        
+        
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
